@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift for Bruh🎁</title>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="personagens">
+<img  class='imagem' src="img/img2.jpg" alt="">
+
+<div class="conteudo">
+    <div id="infos-client">
+        <label for="">Nome:</label>
+        <input type="text" id="nick">
+        <br>
+        <br>
+
+        <label>Gênero: </label>
+        <ul class="gender-selector">
+            <li><input class="gender" type="radio" name="gender" value="feminino">  Feminino</li>
+        </ul>
+
+        <br>
+        <br>
+
+        <button type="submit" class="gerar-btn" >Ler mensagem  ✉</button>
+
+    </div>
+
+    <div id="dialog" style="display: none;">
+        
+        <p class="close">X</p>
+        <p id="msg"></p>
+        <button type="button" class="accept">Nova Frase</button>
+    </div>
+</div>
+</div>
+
+    <script src="js/gerador.js"></script>
+</body>
+
+</html>
